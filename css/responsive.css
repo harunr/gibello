@@ -1,0 +1,251 @@
+
+/* ================================================================================= */
+/* =============================== Responsive CSS ================================== */
+/* ================================================================================= */
+
+@media only screen and (max-width:767px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+	header{height:50px;background:#f1f4f6;box-shadow:0 0 0;}
+	.common-wrap{padding:0 15px;}
+	#header-section .common-wrap{padding:0}
+
+	/* header-section */	
+	.mobi-nav{display:block;}
+	.logo{display:none;}
+	.header-nav{display:none;width:100%;margin:10px 0 0;padding:10px 0 15px;background:#f1f4f6;height:100%;overflow-y:scroll;}	
+	.header-nav ul li{width:100%;margin:10px 0 0}	
+	.header-nav ul li a{display:block;text-align:center;}
+	.mobi-logo{display:block;margin:13px 0 0 10px;}
+	.home-header .header-nav{height:100%;overflow-y:scroll;}
+	.home-header .header-nav ul li{margin:10px 0;}
+	.home-header .header-nav ul li a{display:inline-block;}
+	header.home-header{background:#ffffff}
+	/* // header-section */
+
+	/* Home Page */
+	.home-page{padding:50px 0 0;}
+	.slide-caption-wrap{width:270px;margin-left:-135px;bottom:0px;}
+	.slide-caption-wrap h3 a{margin-top:0px;}
+	.flex-direction-nav .flex-next ,.flex-direction-nav .flex-prev{display:none;}
+	.home-page #content-section .row .col-2:nth-child(1){width:100%;height:auto;}
+	.home-page #content-section .row .col-2:nth-child(2){width:100%;height:auto;}
+	.home-page #content-section .row:nth-child(odd) .col-2:nth-child(2){float:left;}
+	.home-page #content-section .row:nth-child(even) .col-2:nth-child(1){float:left;}
+	.gallery-description{padding:30px 0;}
+	.home-page #content-section{position:relative;padding:0;}
+	.common-title-wrap{padding:20px 0;}
+	.common-head{padding:0;}
+	/* // Home Page */
+
+	/* About Page */
+	.about-page{padding:50px 0 0;}
+	.about-page #content-section{padding:0px 0 15px;}
+	.about-page #content-section .common-title-wrap{padding:15px 0 30px;}
+	.about-page .common-title-wrap a{padding-top:20px;}
+	.about-page .common-title-wrap p{max-width:100%;padding:15px 15px 0;}
+	.history-of-caroline-wrap{background:none;min-height:100px;}
+	.circle-wrap{display:none;}
+	#history-of-caroline-section{padding:0px 0 20px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2:nth-child(1){width:100%;height:auto;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2:nth-child(2){width:100%;height:auto;}	
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row:nth-child(odd) .col-2:nth-child(2){float:left;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row:nth-child(even) .col-2:nth-child(1){float:left;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2 .table-cell-wrap figure{max-width:200px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2 .table-cell-wrap .gallery-description{max-width:100%;padding:30px 0 0}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row{padding:25px 0 15px;}	
+	.about-page #history-of-caroline-section .common-title-wrap{padding:15px 0;}
+	/* // About Page */
+	
+	/* Blog Page */
+	.blog-page{padding:50px 0 0;}
+	.blog-content{width:100%;}
+	.blog-content .gallery-description h2{font-size:14px;padding:12px 0;line-height:20px;}
+	.blog-inner-wrap{padding-bottom:19px;}
+	.blog-page #content-section{padding:0 0 20px;}
+	.pagination li a{margin:0 4px;padding:7px 0 6px;font-size:10px; line-height:16px;width:33px;}
+	.blog-page #content-section .common-title-wrap{padding:20px 0}
+	.blog-content .gallery-description{padding:25px 0 20px;}
+	/* // Blog Page */
+
+	/* Single Blog Page */
+	.single-blog-page{padding:50px 0 0;}
+	.single-blog-page #content-section .common-title-wrap{max-width:100%;padding:10px 0 20px 0;}
+	.single-blog-page #content-section .common-title-wrap h2{font-size:16px;line-height:22px;}
+	.single-blog-page #content-section .common-title-wrap h4{margin-top:10px;}
+	.paragraph-wrap{max-width:100%;padding:20px 0;}
+	.share-article-wrap{padding:20px 0 0;margin-top:0px}
+	.share-this-article{position:relative;left:auto;top:auto;width:240px;clear:both;margin:0 auto}
+	.share-social-wrap{float:none;clear:both;margin:10px auto 0;}
+	.previous-next-article:nth-child(odd),.previous-next-article:nth-child(even){float:none; clear:both;margin:10px auto 0;text-align:center;}
+	.previous-next-article{font-size:10px;line-height:16px;letter-spacing:1px;margin-top:0px;}
+	.single-blog-page #content-section{padding:20px 0;}
+	/* // Single Blog Page */
+
+	/* Portfolio Page */
+	.portfolio-page{padding:50px 0 0;}
+	.portfolio-outer-content{padding-bottom:30px;}
+	.portfolio-inner-content{padding-bottom:30px;}
+	.portfolio-inner-content:first-child{padding-bottom:0;}
+	.portfolio-page #content-section .portfolio-inner-content:nth-child(odd) .common-slider{padding:0px;}
+	.portfolio-page #content-section .portfolio-inner-content:nth-child(even) .common-slider{padding:0px;}
+	.portfolio-page #content-section .pagination{padding-top:0px;}
+	.zoom-shopping-cart-wrap{width:110px;height:40px;margin-left:-55px;margin-top:-35px;}
+	.zoom-shopping-cart-wrap a{margin:0 5px;width:40px;height:40px;}
+	/* // Portfolio Page */
+
+	/* Books Page */
+	.books-page{padding:50px 0 0;}
+	.books-page #content-section .portfolio-inner-content .common-slider-wrap{padding:0 0 30px;}
+	.books-page #content-section .common-slider-wrap .common-slider{padding:15px;}
+	.books-page #content-section .flex-direction-nav .flex-next{display:none;}
+	.books-page #content-section .flex-direction-nav .flex-prev{display:none;}
+	.books-page .common-title-wrap{padding:20px 0;}
+	.books-page .common-title-wrap{padding:20px 0;}
+	.books-gallery-wrap{margin:0 0 30px 0;}
+	.books-gallery-box{width:100%;padding:20px;}
+	.books-image-wrap{padding:20px;}
+	.books-image-wrap .zoom-shopping-cart-wrap{margin-top:-17px;margin-left:-50px;}
+	/* // Books Page */
+	
+	/* Contact Page */
+	.contact-page{padding:50px 0 0;}
+	.contact-page .common-title-wrap{padding:15px 0 0;}
+	#fieldset-section{padding:0 0 10px;}
+	.spam-code-wrap{max-width:280px;padding:20px 0 0;}
+	#check-box label input[type="checkbox"]{margin:0 19px 0 0;}
+	#fieldset-section fieldset .input-wrap{margin-top:20px;}
+	#sbmit-btn{margin:20px auto 0;}
+	#fieldset-section fieldset .input-wrap input[type="text"],.input-wrap textarea{padding:10px 15px;font-size:10px;line-height:16px;}
+	#fieldset-section fieldset .input-wrap textarea{max-height:150px;min-height:150px;}
+	/* // Contact Page */
+
+	#gallery-section{padding:0 0 25px 0;}
+	.gallery-box,.gallery-wrap .gallery-box:nth-child(3n+3){float:none;clear:both;width:100%;max-width:285px;margin:20px auto 0;overflow:hidden;}
+	#footer-section{padding:10px 0 30px;}
+	.footer-social-wrap a{margin:0 10px;}
+	.connect-wrap{letter-spacing:1px;}
+
+
+	}
+
+	
+/*		Wide Mobile Layout:480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width:415px) and (max-width:767px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0 15px;}
+	
+	/*#sign-up-section .input-wrap{max-width:310px;}*/
+
+	
+}
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+	@media only screen and (min-width:768px) and (max-width:991px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0 15px;}	
+
+	.home-header .header-nav ul li{margin:0 5px;}	
+	/* // header-section */
+
+	/* Home Page */
+	.slide-caption-wrap{bottom:10px;}
+	.flex-direction-nav .flex-next ,.flex-direction-nav .flex-prev{bottom:10px;}
+	.home-page #content-section .row .col-2:nth-child(1){height:200px;}
+	.home-page #content-section .row .col-2:nth-child(2){height:200px;}
+	/* // Home Page */
+	
+	/* About Page */
+	.about-page .common-title-wrap{padding:25px 0 45px;}
+	.about-page .common-title-wrap p{padding-top:32px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2 .table-cell-wrap figure{max-width:258px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2 .table-cell-wrap .gallery-description{max-width:284px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap p{margin-top:15px;}
+	.about-page #history-of-caroline-section .history-of-caroline-wrap .row .col-2 .table-cell-wrap .gallery-description{padding:5px 0 0;}
+	#history-of-caroline-section{padding:0px 0 70px;}
+	/* // About Page */
+
+	/* Blog Page */
+	.blog-content .gallery-description h2{font-size:14px;padding:12px 0;line-height:20px;}
+	.blog-inner-wrap{padding-bottom:19px;}
+	.blog-page #content-section{padding:0 0 45px;}
+	.pagination li a{margin:0 4px;padding:7px 0 6px;font-size:10px; line-height:16px;width:33px;}
+	/* // Blog Page */
+
+	/* Single Blog Page */
+	.share-article-wrap{padding:0 0 14px;margin-top:70px}
+	.previous-next-article{font-size:10px;line-height:16px;letter-spacing:1px;margin-top:0px;}
+	.share-this-article{width:150px;margin-left:-75px;top:auto;bottom:0;}
+	.share-social-wrap{width:150px;margin-top:0px;height:38px;}
+	.share-social-wrap a{margin:11px 10px 0 10px;}
+	.share-this-text{font-size:11px;line-height:32px;}
+	.single-blog-page #content-section{padding:20px 0 50px;}
+	/* // Single Blog Page */
+	
+	/* Portfolio Page */
+	.portfolio-page #content-section .portfolio-inner-content:nth-child(odd) .common-slider{padding:0 70px;}
+	.portfolio-page #content-section .portfolio-inner-content:nth-child(even) .common-slider{padding:0 120px;}
+	.portfolio-inner-content{padding-bottom:30px;}
+	/* // Portfolio Page */
+
+	/* Books Page */	
+	.books-page #content-section .portfolio-inner-content .common-slider-wrap{padding:0 15px;}
+	.books-page #content-section .common-slider-wrap .common-slider{padding:20px 180px;}
+	.books-page #content-section .flex-direction-nav .flex-next{top:-180px;margin-right:-15px;}
+	.books-page #content-section .flex-direction-nav .flex-prev{top:-180px;margin-left:-15px;}
+	.books-page .common-title-wrap{padding:30px 0 10px;}
+	/* // Books Page */
+	#fieldset-section{padding:0 0 102px;}
+	
+	#footer-section{padding:40px 0;}
+	
+
+}
+	
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0 15px;}
+	
+	/* // header-section */
+
+	/* // Home Page */
+	.slide-caption-wrap{bottom:10px;}
+	.flex-direction-nav .flex-next ,.flex-direction-nav .flex-prev{bottom:10px;}
+	.home-page #content-section .row .col-2:nth-child(1){height:220px;}
+	.home-page #content-section .row .col-2:nth-child(2){height:220px;}
+	/* // Home Page */
+
+	/* About Page */	
+	.about-page .common-title-wrap{padding:25px 0 45px;}
+	.about-page .common-title-wrap p{padding-top:32px;}	
+	#history-of-caroline-section{padding:0px 0 70px;}
+	/* // About Page */
+
+	.single-blog-page #content-section{padding:20px 0 80px;}
+	/* Books Page */
+	.books-page #content-section .portfolio-inner-content .common-slider-wrap{padding:0 25px;}
+	.books-page #content-section .common-slider-wrap .common-slider{padding:45px 200px;}
+	.books-page #content-section .flex-direction-nav .flex-next{top:-275px;margin-right:-25px;}
+	.books-page #content-section .flex-direction-nav .flex-prev{top:-275px;margin-left:-25px;}
+	.books-page .common-title-wrap{padding:30px 0 10px;}
+	/* // Books Page */
+	#fieldset-section{padding:0 0 102px;}
+	.portfolio-inner-content{padding-bottom:30px;}
+	
+	#footer-section{padding:40px 0;}
+	
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0 15px;}	
+
+}
